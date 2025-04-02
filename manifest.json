@@ -1,11 +1,11 @@
 {
   "manifest_version": 3,
   "name": "GeoHub Color Inverter",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Invierte los colores durante las partidas de GeoHub",
   "permissions": ["activeTab"],
   "content_scripts": [{
-    "matches": ["https://www.geohub.gg/game/*"],
+    "matches": ["<all_urls>"],
     "js": ["content.js"]
   }],
   "icons": {
